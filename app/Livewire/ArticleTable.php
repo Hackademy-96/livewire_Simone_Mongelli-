@@ -12,7 +12,7 @@ class ArticleTable extends Component
 
         $article->delete();
 
-        session()->flash('message', 'Articolo eliminato correttamente ')
+        session()->flash('message', 'Articolo eliminato correttamente ');
 
 
     }
